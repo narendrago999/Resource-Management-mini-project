@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10vmax;
+}
+.column{
+    width: 28vmax;
+    margin: auto;
+    height: 70vh;
+    padding: 1vmax;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.519);
+}
+.column ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    height: 60vh;
+
+}
+.column ul li{
+    border: 1px solid black;
+    margin: 1vmax 0;
+    padding: 0.8vmax;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 0.5vmax 0.8vmax;
+    cursor: pointer;
+    margin-right: 0.3vmax;
+}
+.title{
+    text-align: center;
+}
